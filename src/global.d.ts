@@ -1,6 +1,6 @@
 interface LucidConfig {
   publicKey: string;
-  privateKey: string;
+  environment: string;
 }
 
 interface Subscription {
@@ -8,6 +8,8 @@ interface Subscription {
   amount: number;
   interval: number;
   nextChargeAt?: string;
+
+  signature: string;
 }
 
 class Lucid {
