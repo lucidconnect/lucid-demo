@@ -12,21 +12,21 @@ const subscriptionData = {
     interval: 30,
     productId: demoConfig.productId,
     signature:
-      "0xd5fa29f78bdefc703d17f3e4f61b900c5f6e7bd41eb38f47f466fece44c9187f27af85fb4262b640c8aebf0136abe698b78464fd14e5b5ae3b4d71d113079f4c00",
+      "0xf44b353ac0365cfc16171c3ceaabbf96a7bd205a50d4f7083599f0b605b32b8525b9b393331fe77b8c44052fc223fb1e18b16353fe6e708fa7178095fcbadc4300",
   },
   business: {
     amount: 5,
     interval: 30,
     productId: demoConfig.productId,
     signature:
-      "0x352367a1fd85a4c540d9862a026c29ecf9aba64ff5e7bc8742fc20aee6d3778f4c6ef3c38700700168f0620881b690845a537e8dd2b60234b128308076758c4d01",
+      "0xc72ccd43f0ea15a8c5be38fb64a3b9e04c7906cf940fb92ed00002593940b83e297abca1b67c76b2ecb881b8e4311098fd9a6e695633741073fef4adb7537b2401",
   },
   enterprise: {
     amount: 20,
     interval: 30,
     productId: demoConfig.productId,
     signature:
-      "0xfbad5a5668f81b8478d5c108561c968bd3f57159f788cc4de52c35da080033ae59ceab9fc9033b009ebf15596f5f895a9b75eb6a05465e6b7fca65e0e32fef6600",
+      "0xd474c747fbef6bec016cee01d7f9e1b713a8d20596e98f808785b8d40150112258458183edf97967b27abdfd9276d48010e6b3d5de873781fa688c221416a41e00",
   },
 };
 
