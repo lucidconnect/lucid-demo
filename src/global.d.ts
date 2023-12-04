@@ -15,6 +15,7 @@ interface Subscription {
 class Lucid {
   constructor(c: LucidConfig) {}
   createSubscription: (s: Subscription) => Promise<void>;
+  connect: (p: { productId: string }) => Promise<void>;
 }
 
 declare global {

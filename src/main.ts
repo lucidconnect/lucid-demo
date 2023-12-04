@@ -4,6 +4,8 @@ const startupButton = document.querySelector("#subscribe-startup");
 const businessButton = document.querySelector("#subscribe-business");
 const enterpriseButton = document.querySelector("#subscribe-enterprise");
 
+const connectButton = document.querySelector("#manage-account");
+
 const subscriptionData = {
   startup: {
     amount: 1,
@@ -53,6 +55,17 @@ enterpriseButton?.addEventListener("click", async () => {
   });
 
   await lucid.createSubscription(subscriptionData.enterprise);
+});
+
+connectButton?.addEventListener("click", async () => {
+  const lucid = new window.Lucid({
+    publicKey: demoConfig.publicKey,
+    environment: demoConfig.environment,
+  });
+
+  await lucid.connect({
+    productId: demoConfig.productId,
+  });
 });
 
 export {};
