@@ -1,5 +1,5 @@
 :root {
-  --font1: "Montserrat", sans-serif;
+  --font1: var(--font-inter);
   --primaryColor: #1465fa;
 }
 
@@ -28,6 +28,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 2rem;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  font-size: 1.1rem;
+  letter-spacing: 0mm;
+  font-weight: 600;
 }
 
 h1 {
@@ -63,11 +73,17 @@ button {
   font-weight: 600;
 }
 
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
 .grid {
+  max-width: 765px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  margin: 6rem 0;
+  margin: 6rem auto;
   width: 100%;
 }
 
@@ -90,11 +106,13 @@ button {
 .subscription--title {
   font-size: 24px;
   font-weight: 700;
+  padding: 10px 0;
 }
 
 .subscription--price {
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
+  padding: 12px 0;
 }
 
 .subscription--button {
