@@ -18,8 +18,7 @@ export const demoConfig = {
     {
       name: "Quantum Bliss VIP",
       amount: 24.99,
-      // productId: "02b9e1a5-1121-4139-83ac-b112a4ca27a4",
-      productId: "04ef2b83-7bb1-4ed0-9908-9c5a406d1f92",
+      productId: "02b9e1a5-1121-4139-83ac-b112a4ca27a4",
       description: [
         "All Essential Harmony features",
         "Dedicated meditation coach",
