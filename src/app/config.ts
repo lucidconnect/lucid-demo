@@ -6,7 +6,7 @@ export const demoConfig = {
     {
       name: "Essential Harmony",
       amount: 9.99,
-      productId: "e631b895-73a2-4487-8200-5466feac6214",
+      productId: "8a7cbc58-cf0d-4690-bdb6-e6c26450ac44",
       description: [
         "Diverse meditation landscapes",
         "Weekly mindfulness challenges",
