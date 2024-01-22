@@ -8,7 +8,7 @@ export const createSubscriptionAction = async (
   callback_url: string
 ) => {
   const response = await axios.post(
-    "https://silver-arrow-staging-qptr.onrender.com/checkout/sessions",
+    "https://silver-arrow.onrender.com/checkout/sessions",
     {
       customer: "demo123",
       product_id,

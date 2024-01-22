@@ -24,7 +24,7 @@ const Home = () => {
         return;
       }
 
-      window.location.href = `https://pay.staging.lucidconnect.xyz/c/${sessionId}`;
+      window.location.href = `https://pay.lucidconnect.xyz/c/${sessionId}`;
     } finally {
       setSelected("");
     }
